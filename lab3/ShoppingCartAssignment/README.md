@@ -1,6 +1,6 @@
 _**Shopping Cart Assignment
 **_
-- _ **Why I chose class for ShoppingCart**_
+-  **Why I chose class for ShoppingCart**_
 I decided to use class for ShoppingCart because it needs reference semantics. The cart represents a single shared object 
 that can be updated in different parts of the program. When items are added or removed from the cart, I want
 those changes to be visible everywhere.
