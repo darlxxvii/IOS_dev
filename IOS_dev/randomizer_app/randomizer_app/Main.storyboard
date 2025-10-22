@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="randomizer_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="440" height="956"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="random" translatesAutoresizingMaskIntoConstraints="NO" id="Pb9-05-4YM">
+                                <rect key="frame" x="30" y="1264.3333333333333" width="380" height="736"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Pb9-05-4YM" secondAttribute="height" multiplier="95:184" id="Lp6-Lv-PLR"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiM-6t-Vgn" userLabel="Randomize">
+                                <rect key="frame" x="150" y="2112" width="141" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="p4L-Ky-5qo"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Randomize ">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="1" green="0.57179646409999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="Impact" family="Impact" pointSize="25"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="randomizeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eiJ-wi-JzL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ллё" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGp-hY-seb" userLabel="Item Description">
+                                <rect key="frame" x="30" y="2072" width="380" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" layoutMarginsFollowReadableWidth="YES" text="Anime character randomizer" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OB8-8d-RKc" userLabel="Item Label">
+                                <rect key="frame" x="50" y="2020" width="340" height="32"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.57179646409999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="1" green="0.57179646409999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" red="1" green="0.57179646407859952" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hiM-6t-Vgn" secondAttribute="bottom" constant="60" id="4oa-zQ-Jsc"/>
+                            <constraint firstItem="Pb9-05-4YM" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="56U-X6-ITW"/>
+                            <constraint firstItem="hiM-6t-Vgn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gjz-ep-kgV"/>
+                            <constraint firstItem="aGp-hY-seb" firstAttribute="top" secondItem="OB8-8d-RKc" secondAttribute="bottom" constant="20" id="Gkf-ak-uMB"/>
+                            <constraint firstItem="OB8-8d-RKc" firstAttribute="leading" secondItem="Pb9-05-4YM" secondAttribute="leading" constant="20" id="KsP-b2-jjS"/>
+                            <constraint firstItem="Pb9-05-4YM" firstAttribute="trailing" secondItem="OB8-8d-RKc" secondAttribute="trailing" constant="20" id="VAP-Ws-eB7"/>
+                            <constraint firstItem="Pb9-05-4YM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="WML-Vb-Aoc"/>
+                            <constraint firstItem="Pb9-05-4YM" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.33" id="Xpb-N0-obi"/>
+                            <constraint firstItem="Pb9-05-4YM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="aBO-hm-dpl"/>
+                            <constraint firstItem="OB8-8d-RKc" firstAttribute="top" secondItem="Pb9-05-4YM" secondAttribute="bottom" constant="20" id="bDD-9Y-J6Q"/>
+                            <constraint firstItem="Pb9-05-4YM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="d62-mv-ba6"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Pb9-05-4YM" secondAttribute="trailing" constant="30" id="jbF-Tp-Oco"/>
+                            <constraint firstItem="aGp-hY-seb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nvd-KJ-kjq"/>
+                            <constraint firstItem="aGp-hY-seb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ohP-se-3Ww"/>
+                            <constraint firstItem="OB8-8d-RKc" firstAttribute="centerX" secondItem="Pb9-05-4YM" secondAttribute="centerX" id="tie-jQ-WMA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aGp-hY-seb" secondAttribute="trailing" constant="30" id="xE7-oa-VQs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ItemDescription" destination="aGp-hY-seb" id="Krf-fm-nU0"/>
+                        <outlet property="itemImageView" destination="Pb9-05-4YM" id="gCX-nT-gFe"/>
+                        <outlet property="itemLabel" destination="OB8-8d-RKc" id="Egy-3K-xlI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96.818181818181827" y="3.1380753138075317"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="random" width="736" height="736"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
