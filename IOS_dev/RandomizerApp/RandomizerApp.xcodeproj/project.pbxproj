@@ -29,22 +29,9 @@
 		DACB198C2EA9553A0094FCF1 /* RandomizerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomizerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		DACB19942EA9553A0094FCF1 /* Exceptions for "RandomizerApp" folder in "RandomizerApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = DACB196B2EA955390094FCF1 /* RandomizerApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DACB196E2EA955390094FCF1 /* RandomizerApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				DACB19942EA9553A0094FCF1 /* Exceptions for "RandomizerApp" folder in "RandomizerApp" target */,
-			);
 			path = RandomizerApp;
 			sourceTree = "<group>";
 		};
