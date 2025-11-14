@@ -46,7 +46,8 @@ struct FavoriteItem {
     let review: String
     let imageName: String
 }
-
+```
+## Screenshots: 
 <img width="1206" height="2622" alt="image" src="https://github.com/user-attachments/assets/ab32277e-78d0-41a2-b7f6-842ab3d9d33a" />
 <img width="1206" height="2622" alt="image" src="https://github.com/user-attachments/assets/28807f32-83d0-4f6f-b51d-3fceaec1a748" />
 <img width="1206" height="2622" alt="image" src="https://github.com/user-attachments/assets/c52f14ff-2681-4d14-b22f-c85a2f1dc0de" />
