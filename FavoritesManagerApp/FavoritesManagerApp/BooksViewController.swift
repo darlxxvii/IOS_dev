@@ -25,7 +25,7 @@ class BooksViewController: UIViewController {
         ),
         FavoriteItem(
             title: "Murder in Alphabetical Order",
-            imageName: "murder_alphabetical",
+            imageName: "abc",
             description: "A mystery thriller following a unique pattern in murders.",
             review: "Actually, overall not such a complicated case, felt like you could guess who the killer was, 7.5/10"
         ),
@@ -76,7 +76,7 @@ class BooksViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Courses"
+        title = "Books"
         tableView.delegate = self
         tableView.dataSource = self
 //        tableView.rowHeight = UITableView.automaticDimension
@@ -106,5 +106,6 @@ extension BooksViewController: UITableViewDataSource, UITableViewDelegate {
         let item = items[indexPath.row]
         performSegue(withIdentifier: "ShowDetailSegue", sender: item)
     }
+    
 }
 

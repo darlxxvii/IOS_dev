@@ -75,7 +75,7 @@ class MusicViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Courses"
+        title = "Music"
         tableView.delegate = self
         tableView.dataSource = self
 //        tableView.rowHeight = UITableView.automaticDimension

@@ -10,7 +10,6 @@ class FavoriteCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        thumbImageView.clipsToBounds = true
     }
 
     func configure(with item: FavoriteItem) {

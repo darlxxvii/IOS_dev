@@ -13,7 +13,7 @@ class CoursesViewController: UIViewController {
     var items: [FavoriteItem] = [
         FavoriteItem(
             title: "Calculus 2",
-            imageName: "calculus_2",
+            imageName: "calculus",
             description: "Borsikbayeva Aliya",
             review: "Best of the best, it was a very interesting course, cause I love math and Aliya alai one love 10/10"
         ),
@@ -67,7 +67,7 @@ class CoursesViewController: UIViewController {
         ),
         FavoriteItem(
             title: "iOS Development",
-            imageName: "ios_development",
+            imageName: "ios",
             description: "Myrzakanurov Arman",
             review: "I am still trying to figure out the field in which I want to start/continue my career path. So I chose this discipline. Lectures are interesting and not hard to understand, and I think I am gaining some good knowledge and I feel like this might be the path that I want to choose cause I feel comfortable practicing with it. Prepod is cool and genuine, best of the best. 10/10"
         )
