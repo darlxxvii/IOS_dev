@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Superhero Randomizer App
+//  AdvancedSuperheroRandomizer
 //
-//  Created by Nazerke Zheken on 28.11.2025.
+//  Created by Nazerke Zheken on 04.12.2025.
 //
 
 import UIKit

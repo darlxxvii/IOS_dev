@@ -1,13 +1,13 @@
 //
-//  Superhero_Randomizer_AppUITests.swift
-//  Superhero Randomizer AppUITests
+//  AdvancedSuperheroRandomizerUITests.swift
+//  AdvancedSuperheroRandomizerUITests
 //
-//  Created by Nazerke Zheken on 28.11.2025.
+//  Created by Nazerke Zheken on 04.12.2025.
 //
 
 import XCTest
 
-final class Superhero_Randomizer_AppUITests: XCTestCase {
+final class AdvancedSuperheroRandomizerUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

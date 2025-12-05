@@ -1,13 +1,13 @@
 //
-//  Superhero_Randomizer_AppUITestsLaunchTests.swift
-//  Superhero Randomizer AppUITests
+//  AdvancedSuperheroRandomizerUITestsLaunchTests.swift
+//  AdvancedSuperheroRandomizerUITests
 //
-//  Created by Nazerke Zheken on 28.11.2025.
+//  Created by Nazerke Zheken on 04.12.2025.
 //
 
 import XCTest
 
-final class Superhero_Randomizer_AppUITestsLaunchTests: XCTestCase {
+final class AdvancedSuperheroRandomizerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
